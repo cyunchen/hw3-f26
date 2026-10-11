@@ -96,6 +96,7 @@ nav a:focus {
 
 .text-block {
   display: grid;
+  align-self: center;
   align-content: center;
   justify-items: center;
   text-align: center;
@@ -147,6 +148,7 @@ nav a:focus {
   .text-block {
     max-height: 235px;
     overflow: auto;
+    align-content: safe center;
   }
 }
 
